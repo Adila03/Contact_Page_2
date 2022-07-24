@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1100px;
+  height: auto;
+  margin: 20px auto;
+}
+
+header {
+  background-color: #63659e;
+  height: 350px;
+}
+
+header .navbar {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .menu {
+  margin-top: 7px;
+}
+
+header .nav {
+  padding: 15px;
+  font: 20px;
+  letter-spacing: 1px;
+}
+
+header .head1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .contact {
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 280px;
+  margin-left: 50px;
+}
+
+main {
+  height: 700px;
+  margin: auto;
+}
+
+main .head2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 0 0 40px;
+}
+
+main .section1 {
+  width: 600px;
+  position: relative;
+}
+
+main .section1-1 {
+  background-image: url(img/pexels-anna-shvets-4556779.jpg);
+  height: 560px;
+  width: 400px;
+  position: absolute;
+  top: 60px;
+  left: 35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .section2 {
+  position: relative;
+  width: 700px;
+}
+
+main .section2-1 {
+  width: 487px;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+main #fname, main #mail {
+  width: 450px;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+main form {
+  margin-top: 25px;
+}
+
+main .text2 {
+  height: 103px;
+}
+
+main #message {
+  height: 103px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  width: 450px;
+}
+
+main button {
+  height: 45px;
+  width: 150px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+main .section2-2 {
+  margin-top: 40px;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #FF8096;
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0 0 40px;
+}
+
+footer .sect3-1 {
+  height: 197px;
+  width: 440px;
+}
+
+footer .sect3-2 {
+  width: 300px;
+}
+
+footer .sect3-2 ul {
+  list-style: none;
+}
+
+footer .sect3-2 li {
+  margin: 10px 0 10px;
+}
+
+footer .sect3-2 h3 {
+  font-weight: bold;
+}
+
+footer .sect3-3 {
+  width: 450px;
+}
+
+footer .sect3-3 .pic1 {
+  background-image: url(img/pic1.jpg);
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+footer .sect3-3 .pic2 {
+  background-image: url(img/pic2.jpg);
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+footer .sect3-3 .pic3 {
+  background-image: url(img/pic3.jpg);
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+footer .sect3-3 .pic4 {
+  background-image: url(img/pic4.jpg);
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+footer .sect3-3 .pic5 {
+  background-image: url(img/pic5.jpg);
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+footer .sect3-3 .pic6 {
+  background-image: url(img/pic6.jpg);
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+/*# sourceMappingURL=stiller.css.map */

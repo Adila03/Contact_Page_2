@@ -1,0 +1,180 @@
+$font-stack: Verdana, Geneva, Tahoma, sans-serif;
+$font-size:20px;
+$letter:1px;
+$border:1px solid white;
+$weight:bold;
+@mixin display1{
+    display: flex;
+    justify-content: center;
+}
+@mixin background{
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+@mixin border{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+@mixin pic{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    width: 1100px;
+    height: auto;
+    margin: 20px auto;
+  }
+header {
+    background-color: #63659e;
+    height: 350px;
+    .navbar{
+        width: 900px;
+        @include display1;
+    } 
+    .menu {
+        margin-top: 7px;
+    }
+    .nav {
+        padding: 15px;
+        font: $font-size; 
+        letter-spacing: $letter;
+    }
+    .head1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .contact {
+        letter-spacing: $letter;
+        font-size: 40px;
+        font-weight: $weight;
+        font-family: $font-stack;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 280px;
+        margin-left: 50px;
+    }
+}
+main{
+    height: 700px;
+    margin: auto;
+    .head2{
+        display: flex;
+        margin: 40px 0 0 40px ;
+    }
+    .section1 {
+        width: 600px;
+        position: relative;
+    }
+    .section1-1 {
+        background-image: url(img/pexels-anna-shvets-4556779.jpg);
+        height: 560px;
+        width: 400px;
+        position: absolute;
+        top: 60px;
+        left: 35px;
+        @include background;
+    }
+    .section2 {
+        position: relative;
+        width: 700px;
+    }
+      
+    .section2-1 {
+        width: 487px;
+        position: absolute;
+        top: 60px;
+        left: 20px;
+    }
+    #fname, #mail {
+        width: 450px;
+        height: 35px;
+        @include border;
+    }
+    form {
+        margin-top: 25px;
+    }
+    .text2 {
+        height: 103px;
+    }
+      
+    #message {
+        height: 103px;
+        @include border;
+        width: 450px;
+    }
+      
+    button {
+        height: 45px;
+        width: 150px;
+        color: white;
+        background-color: black;
+        border: $border
+    }
+    .section2-2 {
+        margin-top: 40px;
+        height: 300px;
+    }
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: $weight;
+    font-size: $font-size;
+}
+footer {
+    background-color: #FF8096;
+    height: 340px;
+    @include display1;
+    align-items: center;
+    padding: 30px 0 0 40px;
+    .sect3-1 {
+        height: 197px;
+        width: 440px;
+    }
+      
+    .sect3-2 {
+        width: 300px;
+    ul{
+        list-style: none;
+        }
+    li{
+        margin: 10px 0 10px;
+        }
+        h3{
+            font-weight: bold;
+        }
+      }
+
+    .sect3-3 {
+        width: 450px;
+    .pic1{
+        background-image: url(img/pic1.jpg);
+        @include pic;}
+    .pic2{
+        background-image: url(img/pic2.jpg);
+        @include pic;}
+    .pic3{
+        background-image: url(img/pic3.jpg);
+        @include pic;}
+    .pic4{
+        background-image: url(img/pic4.jpg);
+        @include pic;}
+    .pic5{
+        background-image: url(img/pic5.jpg);
+        @include pic;}
+    .pic6{
+        background-image: url(img/pic6.jpg);
+        @include pic;}
+
+        
+  }
+}
+  
